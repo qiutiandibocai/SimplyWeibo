@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  SimplyWeibo
+//
+//  Created by Ibokan2 on 16/8/8.
+//  Copyright © 2016年 ibokan. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#define KAppKey @"4195062457"
+#define KRedirectURI @"https://api.weibo.com/oauth2/default.html"
+#define  RGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+#define WIDTH self.view.frame.size.width
+#define HEIGHT self.view.frame.size.height
+#define APPIRATER   NSLocalizedString(@"我草死你个大嘴... ", nil)
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
